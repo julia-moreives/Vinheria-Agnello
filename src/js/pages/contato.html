@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="description" content="Vinheria Agnello: vinhos nacionais e importados com qualidade e atendimento especializado.">
+        <meta name="keywords" content="vinhos, vinheria, vinho tinto, vinho branco, espumantes, vinhos importados">
+
+        <title>Contato</title>
+
+        <link rel="stylesheet" href="../../css/style.css">
+    </head>
+    <body>
+
+        <header>
+            <nav>
+                <h1 class="logo-area">
+                    <a href="../../../index.html">
+                        <img src="../../assets/imgs/logo.png" alt="Logo Vinheria Agnello">
+                        <h1>Vinheria Agnello</h1>
+                    </a>
+                </h1>
+                <ul>
+                    <li><a href="../../../index.html">Início</a></li>
+                    <li><a href="./produtos.html">Produtos</a></li>
+                    <li><a href="./promocoes.html">Promoções</a></li>
+                    <li><a href="./sobre.html">Sobre Nós</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    <form class="contato"> 
+
+            <h3>Fale conosco</h3> 
+            
+            <p>Nossa equipe está pronta para ajudar na escolha do vinho ideal para sua ocasião.</p><br>
+
+            <div class="nome_email">
+
+                <label for="nome"> Digite seu nome: </label> 
+                <input type="text" name="nome" placeholder="Giulio Agnello" required>
+
+                <label for="email"> Digite seu email: </label>
+                <input type="email" name="email" placeholder="giulio.agnello@vinheria.com" required>
+
+            </div>
+
+            <textarea id="opiniao" name="opiniao" placeholder="Digite sua mensagem..." rows="5" required></textarea>
+
+            <p>Deseja receber nossa newsletter?</p>
+
+            <div class="radio-group">
+                <label><input type="radio" name="newsletter">Sim</label>
+                <label><input type="radio" name="newsletter">Não</label>
+            </div>
+
+            <fieldset> 
+                <legend>Aceite os termos e condições antes de seguir:</legend> 
+                <input type="checkbox" name="aceite" value="ok" required> 
+                <label for="aceite">Aceito os termos e condições conforme a LGPD.</label> 
+            </fieldset> 
+
+                <button type="submit">Enviar</button> 
+                <button type="reset">Limpar</button> 
+
+        </form>
+
+        <footer>
+            <p>© Vinheria Agnello - Todos os direitos reservados</p>
+        </footer>
+    </body>
+</html>
