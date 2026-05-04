@@ -1,0 +1,130 @@
+.logo-area img {
+transition: 0.3s;
+}
+
+.logo-area img:hover {
+transform: scale(1.1);
+}
+
+.logo-area span {
+transition: 0.3s;
+}
+
+.logo-area span:hover {
+color: #ffd700;
+}
+
+nav ul li a:hover {
+background-color: white;
+color: #8B0000;
+transition: 0.2s;
+}
+
+nav ul li a:active {
+transform: scale(0.95);
+}
+
+nav ul li a:focus {
+outline: 2px dashed yellow;
+}
+
+
+.banner a {
+transition: 0.3s;
+}
+
+.banner a:hover {
+background-color: #5a0000;
+color: white;
+transform: scale(1.1);
+}
+
+.produto-card,
+.promo-card {
+transition: 0.2s;
+}
+
+.produto-card:hover,
+.promo-card:hover {
+transform: translateY(-10px);
+}
+
+.produto-card:active,
+.promo-card:active {
+transform: scale(0.97);
+}
+
+.contato input:focus,
+.contato textarea:focus {
+border: 2px solid #8B0000;
+outline: none;
+}
+
+.contato button {
+transition: 0.3s;
+}
+
+.contato button:hover {
+transform: scale(1.05);
+}
+
+.contato button:active {
+transform: scale(0.95);
+}
+
+h2::after {
+content: "";
+display: block;
+width: 60px;
+height: 3px;
+background-color: #8B0000;
+margin: 10px auto;
+}
+
+.diferencial-sobre p::first-letter {
+font-size: 24px;
+font-weight: bold;
+color: #8B0000;
+}
+
+@keyframes aparecer {
+from {
+opacity: 0;
+}
+to {
+opacity: 1;
+}
+}
+
+@keyframes subir {
+from {
+transform: translateY(30px);
+opacity: 0;
+}
+to {
+transform: translateY(0);
+opacity: 1;
+}
+}
+
+.banner {
+animation: aparecer 1.5s;
+}
+
+.produto-card {
+animation: subir 0.8s;
+}
+
+.promo-card {
+animation: subir 1s;
+}
+
+.produto-card img,
+.promo-card img {
+transition: 0.3s;
+}
+
+.produto-card img:hover,
+.promo-card img:hover {
+transform: scale(1.05);
+}
